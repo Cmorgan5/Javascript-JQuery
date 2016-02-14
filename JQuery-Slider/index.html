@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Learn JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <style>
+        .red{color:red;}
+        .green{color:green;}
+    </style>
+<script>
+    $(document).ready(function() {
+
+    /*
+    //practice of fading
+
+        $('.myLink').on('mouseenter', function(){
+
+            $('h1').slideUp(500);
+        });
+
+
+        $('.myLink').on('mouseleave', function(){
+            $('h1').slideDown(500);
+        });
+    */
+//practice of convenience function
+        $('.myLink').click(function(){
+
+            //$('h1').replaceWith('Hello World');
+            $('h1').css('font-size', '40px');
+        })
+    });
+</script>
+</head>
+<body>
+
+
+<h1> Welcome Everyone </h1>
+<a href="#" class="myLink"> Click Me </a>
+
+
+</body>
+</html>
