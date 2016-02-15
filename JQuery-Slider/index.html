@@ -2,44 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Learn JQuery</title>
+    <title> JQuery Content Slider </title>
+    <link rel="stylesheet" href="css/style.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 
-    <style>
-        .red{color:red;}
-        .green{color:green;}
-    </style>
-<script>
-    $(document).ready(function() {
-
-    /*
-    //practice of fading
-
-        $('.myLink').on('mouseenter', function(){
-
-            $('h1').slideUp(500);
-        });
-
-
-        $('.myLink').on('mouseleave', function(){
-            $('h1').slideDown(500);
-        });
-    */
-//practice of convenience function
-        $('.myLink').click(function(){
-
-            //$('h1').replaceWith('Hello World');
-            $('h1').css('font-size', '40px');
-        })
-    });
-</script>
 </head>
 <body>
 
-
-<h1> Welcome Everyone </h1>
-<a href="#" class="myLink"> Click Me </a>
-
+<div id="container">
+    <header>
+        <h1> JQuery Content Slider </h1>
+    </header>
+    <img src="img/arrow-left.png" alt="Prev" id="prev">
+    <div id="slider">
+        <div class="slide">
+            <div class="slide-copy">
+                <h2> Slider One </h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+            <img src="img/slide1.jpg">
+        </div>
+        <div class="slide ">
+            <div class="slide-copy">
+                <h2> Slider Two </h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+            <img src="img/slide2.jpg">
+        </div>
+        <div class="slide ">
+            <div class="slide-copy">
+                <h2> Slider Three </h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+            <img src="img/slide3.jpg">
+        </div>
+        <div class="slide ">
+            <div class="slide-copy">
+                <h2> Slider Four </h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+            <img src="img/slide4.jpg">
+        </div>
+        <div class="slide ">
+            <div class="slide-copy">
+                <h2> Slider Five </h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+            <img src="img/slide5.jpg">
+        </div>
+    </div>
+    <img src="img/arrow-right.png" alt="Next" id="next">
+</div>
 
 </body>
 </html>
