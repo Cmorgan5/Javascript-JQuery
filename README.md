@@ -4,3 +4,5 @@ This a repo created to hold all of the projects I've created in Javascript & JQu
 
 
 Just to make a commit today.
+
+Missed a commit yesterday D:
